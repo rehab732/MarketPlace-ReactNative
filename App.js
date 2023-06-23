@@ -9,12 +9,12 @@ import Details from './screens/Details';
 export default function App() {
 
 const[fontsLoaded]=useFonts({
-  'Inter-Bold':require('./assets/fonts/Inter-Bold.ttf'),
-  'Inter-Italic':require('./assets/fonts/Inter-Italic.ttf'),
-  'Inter-Light':require('./assets/fonts/Inter-Light.ttf'),
-  'Inter-Medium':require('./assets/fonts/Inter-Medium.ttf'),
-  'Inter-Reqular':require('./assets/fonts/Inter-Regular.ttf'),
-  'Inter-SemiBold':require('./assets/fonts/Inter-SemiBold.ttf'),
+  'InterBold':require('./assets/fonts/Inter-Bold.ttf'),
+  'InterItalic':require('./assets/fonts/Inter-Italic.ttf'),
+  'InterLight':require('./assets/fonts/Inter-Light.ttf'),
+  'InterMedium':require('./assets/fonts/Inter-Medium.ttf'),
+  'InterReqular':require('./assets/fonts/Inter-Regular.ttf'),
+  'InterSemiBold':require('./assets/fonts/Inter-SemiBold.ttf'),
 });
 
 if(!fontsLoaded) return null;
