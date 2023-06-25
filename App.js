@@ -3,9 +3,9 @@ import { Text, View } from 'react-native';
 import {useFonts} from 'expo-font';
 import { NavigationContainer } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Welcom from './screens/Welcom';
 import Home from './screens/Home';
 import Details from './screens/Details';
+import Splash from './screens/Splash';
 export default function App() {
 
 const[fontsLoaded]=useFonts({
@@ -21,13 +21,15 @@ if(!fontsLoaded) return null;
 const Stack=createNativeStackNavigator();
 
   return (
+    <>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Welcom' screenOptions={{headerShown:false}}>
+      <Stack.Navigator initialRouteName='Splash' screenOptions={{headerShown:false}}>
         <Stack.Screen name='Home' component={Home}/>
-        <Stack.Screen name='Welcom' component={Welcom}/>
+        <Stack.Screen name='Splash' component={Splash}/>
         <Stack.Screen name='Details' component={Details}/>
       </Stack.Navigator>
     </NavigationContainer>
+    </>
   );
 }
 

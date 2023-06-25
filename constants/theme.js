@@ -11,10 +11,10 @@ export const SIZES = {
 };
 
 export const COLORS={
-bg:"#111827",
+bg:"#0E2954",
 cardbg:"#1F2937",
-second:"#2D4356",
-secondtwo:"#001C30",
+second:"#FF2171",
+secondtwo:"#FFD0D0",
 secondthree:"#FF2171",
 white:"#FFF",
 black:"#000",
