@@ -4,7 +4,7 @@ import { COLORS, FONTS, SIZES } from "../constants";
 import nft11 from "../assets/images/nft11.jpg";
 import nft09 from "../assets/images/nft09.jpg";
 import nft06 from "../assets/images/nft06.jpg";
-import Button from "../components/MainButton";
+import MainButton from "../components/MainButton";
 import { useNavigation } from "@react-navigation/native";
 const Splash = () => {
   const navigation = useNavigation();
@@ -104,7 +104,7 @@ const Splash = () => {
           },
         ]}
       >
-        <Button
+        <MainButton
           title="Get Started"
           pressHandler={pressHandler}
           stylesButton={styles.button}

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 
-const Button = ({pressHandler,Icon,stylesText,title,stylesButton}) => {
+const MainButton = ({pressHandler,Icon,stylesText,title,stylesButton}) => {
   const RenderContent=()=>{
     if(!Icon)
     {
@@ -19,4 +19,4 @@ const Button = ({pressHandler,Icon,stylesText,title,stylesButton}) => {
 
 const styles = StyleSheet.create({})
 
-export default Button;
+export default MainButton;
