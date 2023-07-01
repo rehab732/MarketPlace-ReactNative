@@ -86,9 +86,9 @@ const Splash = () => {
           },
         ]}
       >
-        <Text style={styles.maintext}>Find Your Amazing NFTs</Text>
+        <Text style={styles.maintext}>Find Your Favorite Artist</Text>
         <Text style={styles.subtext}>
-          Explore the top collection of NFTs and buy and sell your NFTs as well
+          Explore the to get more infomation about the artist....!
         </Text>
       </Animated.View>
       <Animated.View

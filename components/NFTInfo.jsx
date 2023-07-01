@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     gap: 4,
     borderWidth:1,
     borderColor:COLORS.babypink
-
   },
   text: {
     fontFamily: FONTS.medium,
