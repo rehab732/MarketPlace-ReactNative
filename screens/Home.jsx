@@ -41,7 +41,7 @@ searchAnimationHandler();
     return (
       <View style={styles.notFoundContainer}>
         <Text style={styles.notfoundText}>OOPs.....!</Text>
-        <Text style={styles.notfoundText}>Not Found The NFT</Text>
+        <Text style={styles.notfoundText}>Not Found The Artist</Text>
       </View>
     );
   };
