@@ -11,7 +11,7 @@ export const SIZES = {
 };
 
 export const COLORS={
-bg:"#0E2954",
+bg:"#FFF5E0",
 cardbg:"#1F2937",
 second:"#FF2171",
 secondtwo:"#FFD0D0",
@@ -19,6 +19,9 @@ secondthree:"#FF2171",
 white:"#FFF",
 black:"#000",
 gray:"#ddd",
+darkblue:"#190933",
+babypink:"#EE9E8E",
+light:"#FFDBC3",
 };
 
 

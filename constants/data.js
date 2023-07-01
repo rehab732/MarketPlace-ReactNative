@@ -1,7 +1,7 @@
 import nft01 from "../assets/images/nft01.jpg";
 import nft02 from "../assets/images/nft02.jpg";
 import nft03 from "../assets/images/nft03.jpg";
-import nft04 from "../assets/images/nft03.jpg";
+import nft04 from '../assets/images/nft04.jpg'
 import nft05 from "../assets/images/nft05.jpg";
 import nft06 from "../assets/images/nft06.jpg";
 import nft07 from "../assets/images/nft07.jpg";
@@ -16,8 +16,8 @@ import avatar03 from "../assets/images/avatars/avatar03.jpg";
 export const DATA = [
   {
     id: "1",
-    name: "Cryptopunk #240",
-    creator: "Cryptopunk",
+    name: "Harry Poter",
+    creator: "RehabZaki",
     price: 4.25,
     views: "1.5K",
     comments: 12,
@@ -36,8 +36,8 @@ export const DATA = [
   },
   {
     id: "2",
-    name: "Great Ape #6494",
-    creator: "Great Ape",
+    name: "Selena Gomez",
+    creator: "RehabZaki",
     price: 7.25,
     views: "1.5K",
     comments: 12,
@@ -56,8 +56,8 @@ export const DATA = [
   },
   {
     id: "3",
-    name: "Meebit #2325",
-    creator: "Meebit",
+    name: "Ian Somerhalder",
+    creator: "RehabZaki",
     price: 95.25,
     views: "1.5K",
     comments: 12,
@@ -76,8 +76,8 @@ export const DATA = [
   },
   {
     id: "4",
-    name: "Kodala Agent",
-    creator: "Kodala Agent #1564",
+    name: "Un Known",
+    creator: "RehabZaki",
     price: 54.25,
     views: "1.5K",
     comments: 12,
@@ -96,8 +96,8 @@ export const DATA = [
   },
   {
     id: "5",
-    name: "Meebit #2375",
-    creator: "Meebit",
+    name: "ُDemet özdemir",
+    creator: "RehabZaki",
     price: 10.25,
     views: "1.5K",
     comments: 12,
@@ -116,8 +116,8 @@ export const DATA = [
   },
   {
     id: "6",
-    name: "Cryptopunk #4740",
-    creator: "Cryptopunk",
+    name: "Esra Bilgic",
+    creator: "RehabZaki",
     price: 20.25,
     views: "1.5K",
     comments: 12,
@@ -136,8 +136,8 @@ export const DATA = [
   },
   {
     id: "7",
-    name: "Cryptopunk #470",
-    creator: "Cryptopunk",
+    name: "Un Known",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,
@@ -156,8 +156,8 @@ export const DATA = [
   },
   {
     id: "8",
-    name: "Great Ape #494",
-    creator: "Great Ape",
+    name: "Asmaa",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,
@@ -176,8 +176,8 @@ export const DATA = [
   },
   {
     id: "9",
-    name: "Great Ape #6434",
-    creator: "Great Ape",
+    name: "Hager Ahmed",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,
@@ -196,8 +196,8 @@ export const DATA = [
   },
   {
     id: "10",
-    name: "Kodala Agent",
-    creator: "Kodala Agent #1164",
+    name: "Ragner",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,
@@ -216,8 +216,8 @@ export const DATA = [
   },
   {
     id: "11",
-    name: "Kodala Agent",
-    creator: "Kodala Agent #1864",
+    name: "Un Known",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,
@@ -237,8 +237,8 @@ export const DATA = [
 
   {
     id: "12",
-    name: "Koala Anent",
-    creator: "Koala Anent #1584",
+    name: "Sharnoby",
+    creator: "RehabZaki",
     views: "1.5K",
     comments: 12,
     price: 18.25,

@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet,Image,Text, TextInput} from 'react-native';
 import { COLORS, FONTS, SIZES } from '../constants';
-import avatar from '../assets/images/avatars/avatar03.jpg';
+import avatar from '../assets/images/avatars/avatar04.jpg';
 import {MaterialCommunityIcons} from "@expo/vector-icons";
 import { AntDesign } from '@expo/vector-icons';
 const HomeHeader = ({seacrchHandler}) => {
@@ -21,21 +21,20 @@ const HomeHeader = ({seacrchHandler}) => {
             <MaterialCommunityIcons 
             name='check-decagram'
             size={24}
-            color='white'
+            style={{color:COLORS.darkblue}}
             />
           </View>
           <View>
-            <Text style={{color:COLORS.white}}>Creator</Text>
+            <Text style={{color:COLORS.darkblue}}>Creator</Text>
           </View>
         </View>
       </View>
        <View style={{marginTop:SIZES.small,paddingHorizontal:10}}>
           <View style={styles.searchContainer}>
-            {/* <MatrialIcons name='search' size={24} color='white'/> */}
-            <AntDesign name="search1" size={24} color="white" />
+            <AntDesign name="search1" size={24} style={{color:COLORS.babypink}}/>
             <TextInput
-             placeholder={"Search By NFT Name"}
-             placeholderTextColor={COLORS.white}
+             placeholder={"      Search By Name..!"}
+             placeholderTextColor={COLORS.babypink}
              style={{flex:1,color:COLORS.white}}
              onChangeText={seacrchHandler}
              
@@ -57,14 +56,14 @@ const styles = StyleSheet.create({
     paddingHorizontal:10
   },
   userText:{
-    color:COLORS.white,
+    color:COLORS.darkblue,
     fontFamily:FONTS.semiBold,
     fontSize:SIZES.xlarge,
   },
   searchContainer:{
     width:"100%",
     borderRadius:SIZES.small,
-    backgroundColor:COLORS.second,
+    backgroundColor:COLORS.darkblue,
     flexDirection:"row",
     alignItems:"center",
     paddingVertical:8,

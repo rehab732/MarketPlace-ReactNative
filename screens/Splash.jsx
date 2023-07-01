@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import { View, StyleSheet, Text, Image, Animated,SafeAreaView } from "react-native";
+import { View, StyleSheet, Text, Image, Animated,SafeAreaView,Button } from "react-native";
 import { COLORS, FONTS, SIZES } from "../constants";
-import nft11 from "../assets/images/nft11.jpg";
-import nft09 from "../assets/images/nft09.jpg";
+import nft11 from "../assets/images/nft02.jpg";
+import nft09 from "../assets/images/nft01.jpg";
 import nft06 from "../assets/images/nft06.jpg";
 import MainButton from "../components/MainButton";
 import { useNavigation } from "@react-navigation/native";
@@ -110,6 +110,7 @@ const Splash = () => {
           stylesButton={styles.button}
           stylesText={styles.textButton}
         />
+      
       </Animated.View>
     </SafeAreaView>
   );
@@ -135,7 +136,7 @@ const styles = StyleSheet.create({
   imagecard: {
     borderRadius: SIZES.medium,
     padding: SIZES.small,
-    backgroundColor: COLORS.secondtwo,
+    backgroundColor: COLORS.darkblue,
   },
   textcontainer: {
     margin: SIZES.small,
@@ -146,13 +147,13 @@ const styles = StyleSheet.create({
     fontFamily: FONTS.bold,
     fontSize: SIZES.xlarge + 5,
     textAlign: "center",
-    color: COLORS.white,
+    color: COLORS.darkblue,
   },
   subtext: {
     fontFamily: FONTS.light,
     textAlign: "center",
     marginTop: SIZES.large,
-    color: COLORS.gray,
+    color: COLORS.darkblue,
   },
   buttonContainer: {
     position: "absolute",
@@ -160,7 +161,7 @@ const styles = StyleSheet.create({
     marginVertical: SIZES.xlarge,
   },
   button: {
-    backgroundColor: COLORS.second,
+    backgroundColor: COLORS.darkblue,
     padding: SIZES.small + 4,
     width: 240,
     alignItems: "center",

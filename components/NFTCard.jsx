@@ -43,7 +43,7 @@ const NFTCard = ({ NFTData }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: COLORS.cardbg,
+    backgroundColor: COLORS.darkblue,
     marginBottom: SIZES.xlarge,
     marginVertical: SIZES.small,
     marginHorizontal: 14,

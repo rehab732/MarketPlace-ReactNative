@@ -14,7 +14,7 @@ const NFTTitle = ({ _name, creator, date }) => {
         <View style={{flexDirection:"row",alignItems:"center",gap:SIZES.small}}>
           <Text style={styles.textCreator}>{creator}</Text>
           {/* <Text>Icon</Text> */}
-          <MaterialCommunityIcons name="check-decagram" size={24} color="red" />
+          <MaterialCommunityIcons name="check-decagram" size={24} style={{color:COLORS.bg}} />
         </View>
         <View>
           <NFTDate date={date}/>
@@ -26,12 +26,12 @@ const NFTTitle = ({ _name, creator, date }) => {
 
 const styles = StyleSheet.create({
   textName: {
-    color: COLORS.white,
+    color: COLORS.bg,
     fontFamily: FONTS.semiBold,
     fontSize: 20,
   },
   textCreator: {
-    color: COLORS.white,
+    color: COLORS.bg,
     fontFamily: FONTS.regular,
     fontSize: 16,
   },

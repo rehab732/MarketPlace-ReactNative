@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   textDate:{
     fontFamily:FONTS.semiBold,
     fontSize:SIZES.medium,
-    color:COLORS.second
+    color:COLORS.bg
   }
 })
 

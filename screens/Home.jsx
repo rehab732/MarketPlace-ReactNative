@@ -15,7 +15,7 @@ import HomeHeader from "../components/HomeHeader";
 
 const Home = () => {
   const [allData, setAllData] = useState(DATA);
-  const moveSearchAnimation=useRef(new Animated.value(0)).current;
+  const moveSearchAnimation=useRef(new Animated.Value(0)).current;
   const searchAnimationHandler=()=>{
     Animated.spring(moveSearchAnimation,{
       toValue:1,
@@ -93,8 +93,8 @@ const styles = StyleSheet.create({
     paddingVertical: SIZES.xlarge,
   },
   notfoundText: {
-    color: COLORS.white,
-    fontFamily:FONTS.bold,
+    color: COLORS.darkblue,
+    fontFamily:FONTS.italic,
     fontSize:SIZES.xlarge
   },
 });
